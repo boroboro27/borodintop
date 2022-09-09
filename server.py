@@ -8,7 +8,6 @@ from fastapi import FastAPI, Form, Cookie, Body
 from fastapi.responses import HTMLResponse, Response
 
 app = FastAPI()
-#амвап
 
 # openssl rand -hex 32 - генерирует хэш
 SECRET_KEY = 'aeca6bfb96e2a24d06b1e4b1552f5a3b4adf967b91f15a7f68aecba55838c03d'
